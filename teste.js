@@ -124,3 +124,21 @@ let falta= produto1-money
         console.log("Divisão:", divisao)
         console.log("Multiplicação:", multiplicacao)
         console.log("Resto:", resto)
+
+
+        let resultado= 10+5 * 2;
+        alert("O resultado é" +resultado+ ", pois primeiro começa pela multiplicação depois adição.")
+
+
+
+        let x = 10;
+        x++;
+        x--;
+        alert("O valor de x é"+ x);
+
+
+         let n= 20;
+        n+=5;
+        n*=2;
+        n-=10;
+        alert(n);
