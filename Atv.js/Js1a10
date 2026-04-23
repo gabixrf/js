@@ -1,0 +1,108 @@
+//Questão 1//
+
+let nome = "Gabi";
+let idade = 17;
+let estudante = true;
+
+console.log("Nome:", nome);
+console.log("Idade:", idade);
+console.log("É estudante?:", estudante);
+
+//Questão 2//
+
+
+let numero1 = Number(prompt("Digite um número:"));
+let numero2 = Number(prompt("Digite o outro número:"));
+
+let soma = numero1 + numero2;
+let subtracao = numero1 - numero2;
+let divisao = numero1 / numero2;
+let multiplicacao = numero1 * numero2;
+
+console.log("A soma é:", soma);
+console.log("A subtração é:", subtracao);
+console.log("A divisão é:", divisao);
+console.log("A multiplicação é:", multiplicacao);
+
+
+//Questão 3//
+
+let idade = Number(prompt("Qual a sua idade?"));
+
+if (idade >= 18) {
+    console.log("Maior de idade");
+} else {
+    console.log("Menor de idade");
+}
+
+
+//Questão 4//
+let a = 1;
+let b = "1";
+
+console.log(a == b);  // true
+console.log(a === b); // false
+
+
+//Questão 5//
+
+let nota = Number(prompt("Digite a nota:"));
+
+if (nota >= 7) {
+    console.log("Aprovado");
+} else if (nota >= 5 && nota < 7) {
+    console.log("Recuperação");
+} else {
+    console.log("Reprovado");
+}
+
+
+//Questão 6//
+
+for (i=0; i<=10; i++) {
+    console.log(i)
+}
+
+
+//Questão 7//
+
+let soma = 0;
+
+for (let i = 1; i <= 100; i++) {
+    soma = soma + i;
+}
+
+console.log("A soma de 1 até 100 é:", soma);
+
+
+//Questão 8//
+
+for (let i = 0; i <= 50; i+=2) {
+    console.log(i)
+}
+
+
+//Questão 9//
+
+function somar(a, b) {
+    return a + b;
+}
+
+let num1 = Number(prompt("Digite o primeiro número:"));
+let num2 = Number(prompt("Digite o segundo número:"));
+
+console.log("Soma:", somar(num1, num2));
+
+
+//Questão 10//
+
+function parOuImpar(numero) {
+    if (numero % 2 === 0) {
+        return "Par";
+    } else {
+        return "Ímpar";
+    }
+}
+
+console.log(parOuImpar(4));
+console.log(parOuImpar(7));
