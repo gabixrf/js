@@ -1,0 +1,8 @@
+function somar(a, b) {
+    return a + b;
+}
+
+let num1 = Number(prompt("Digite o primeiro número:"));
+let num2 = Number(prompt("Digite o segundo número:"));
+
+console.log("Soma:", somar(num1, num2));
